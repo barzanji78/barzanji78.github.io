@@ -8,5 +8,6 @@ layout: page
 
 
 <br /><br /><br />
-
+<div style="background-color: white; border: 2px #6E2222 ridge; padding: 10px; text-align: left; height: 200px; overflow: auto; width: auto;">
 {% for post in site.posts %}{{ post.date | date: "%Y/%m/%d" }} - <a href="{{ post.url }}">{{ post.title }}</a><br />{% endfor %}
+</div>
